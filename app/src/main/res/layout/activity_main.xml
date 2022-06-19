@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/turboscent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="400dp"
+        android:layout_height="49dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="                       Ir a Contactos"
+        android:textAlignment="textStart"
+        android:textColor="#0E0D0D"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.172"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.78" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="409dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginEnd="4dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="    Daniel Paredes  201720120016"
+        android:textAlignment="textStart"
+        android:textColor="#111212"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.666"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="409dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginEnd="4dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="    Arnol Caballero  201110210044"
+        android:textAlignment="textStart"
+        android:textColor="#131313"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.833"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.585" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="405dp"
+        android:layout_height="25dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="UTH"
+        android:textAlignment="center"
+        android:textColor="#0C0C0C"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.41" />
+
+    <ImageView
+        android:id="@+id/vista"
+        android:layout_width="287dp"
+        android:layout_height="187dp"
+        android:clickable="true"
+        android:onClick="clickNew"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.091"
+        app:srcCompat="@drawable/uth"
+        tools:ignore="OnClick,SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="405dp"
+        android:layout_height="25dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="Universidad Tecnologica de Honduras"
+        android:textAlignment="center"
+        android:textColor="#0E0D0D"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.666"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.375" />
+
+    <ImageButton
+        android:id="@+id/bcontactos"
+        android:layout_width="129dp"
+        android:layout_height="114dp"
+        android:onClick="clickNew"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.397"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.959"
+        app:srcCompat="@drawable/contactos" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
