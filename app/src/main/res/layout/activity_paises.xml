@@ -9,24 +9,22 @@
 
     <ImageButton
         android:id="@+id/btnatras"
-        android:layout_width="69dp"
-        android:layout_height="48dp"
-        android:backgroundTint="@color/white"
+        android:layout_width="98dp"
+        android:layout_height="54dp"
         android:onClick="clickNew"
-        app:background="@null"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.02"
+        app:layout_constraintHorizontal_bias="0.163"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.01"
+        app:layout_constraintVertical_bias="0.758"
         app:srcCompat="@drawable/back" />
 
     <ImageView
         android:id="@+id/imageView6"
         android:layout_width="163dp"
         android:layout_height="138dp"
-        android:layout_marginStart="220dp"
+        android:layout_marginStart="124dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -101,12 +99,13 @@
         android:text="Enviar"
         android:textAllCaps="false"
         app:backgroundTint="#673AB7"
+        app:icon="@android:drawable/ic_menu_send"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.409"
+        app:layout_constraintHorizontal_bias="0.769"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.702" />
+        app:layout_constraintVertical_bias="0.756" />
 
     <TextView
         android:id="@+id/txtInfo"
